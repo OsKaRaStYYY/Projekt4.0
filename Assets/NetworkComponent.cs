@@ -5,16 +5,6 @@ using System;
 public class NetworkComponent : NetworkIdentity
 {
     [SerializeField] private NetworkIdentity _networkIdentity; 
-
-    private void Awake()
-    {
-        
-    }
-    private void Start()
-    {
-        
-    }
-
     protected override void OnSpawned()
     {
 
